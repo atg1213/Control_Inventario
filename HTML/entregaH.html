@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega Herramienta</title>
+    <link rel="stylesheet" href="/CSS/entregaH.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-content">
+            <h1 id="title">Entrega de Herramienta</h1>
+
+            <form>
+
+                <div class="input-group">
+
+                    <div class="input-field">
+                        <input type="text" id="tipoH" placeholder="Tipo de Herramienta">
+                    </div>
+
+                    <div class="input-field">
+                        <input type="number" id="codigoH" placeholder="Codigo Herramienta">
+                    </div>
+
+                    <div class="input-field">
+                        <input type="number" id="cantidadH" placeholder="Cantidad de Herramienta">
+                    </div>
+
+                    <p>Fecha de Solicitud</p>
+                    <div class="input-field">
+                        <input type="date" id="fecha">
+                    </div>
+
+                    <p>Estado</p>
+                    <div class="estado-group">
+                        <label>
+                            <input type="radio" name="estado" value="bueno"> Bueno
+                        </label>
+                        <label>
+                            <input type="radio" name="estado" value="malo"> Malo
+                        </label>
+                    </div>
+
+                    <div class="input-field">
+                        <label for="observaciones">Observaciones:</label>
+                        <textarea id="observaciones" name="observaciones" rows="4" placeholder="Escribe tus observaciones aquí..."></textarea>
+                    </div>
+                    
+                    <div class="btn-field-entregaH">
+                        <button id="entregaH" type="button">Generar Entrega</button>
+                    </div>
+
+                    <div class="btn-field-volverE">
+                        <button id="volverE" type="button">Volver</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/JAVASCRIPT/entregaH.js"></script>
+
+</body>
+
+</html>

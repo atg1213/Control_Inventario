@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultar Herramienta</title>
+    <link rel="stylesheet" href="/CSS/consultaG.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-wrapper">
+            <div class="left-section">
+                <h1>Consultar por Herramienta</h1>
+                <form>
+                    <div class="input-group">
+                        <div class="input-field">
+                            <input type="text" id="tipoH" placeholder="Tipo de Herramienta">
+                        </div>
+                        <div class="input-field">
+                            <input type="number" id="codigoH" placeholder="Código Herramienta">
+                        </div>
+                        <div class="btn-field-consultarH">
+                            <button id="consultarH" type="button">Consultar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="right-section">
+                <h1>Consultar Inventario</h1>
+                <form>
+                    <div class="input-group2">
+                        <div class="btn-field-consultarI">
+                            <button id="consultarI" type="button">Consultar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="btn-field-volverC">
+            <button id="volverC" type="button">Volver</button>
+        </div>
+    </div>
+
+    <script src="/JAVASCRIPT/consulta.js"></script>
+</body>
+
+</html>
